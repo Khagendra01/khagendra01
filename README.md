@@ -5,11 +5,13 @@
  <!-- <p> Happy Coding Day - 404! </p> -->
  
 </div>
-<!-- -->
- <p> life init </p>
+<!-- 
+  <p> life init </p>
   <p> life add dayNumber </p>
   <p> life commit -m "Highlight of the Day" </p>
   <p> life push origin main </p>
+-->
+ 
 <div align="center">
  <!-- <img src="https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&locale=en" alt="khagendra01" /> -->
 <!--  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khagendra01" alt="khagendra01" /> -->
