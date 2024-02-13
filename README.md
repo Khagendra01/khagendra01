@@ -11,6 +11,12 @@
   <p> life commit -m "Highlight of the Day" </p>
   <p> life push origin main </p>
 -->
+
+<div align="center">
+  
+![](https://github-readme-streak-stats.herokuapp.com/?user=nta45&theme=midnight-purple&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nta45&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+</div>
  
 <div align="center">
  <!-- <img src="https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&locale=en" alt="khagendra01" /> -->
