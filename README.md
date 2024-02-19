@@ -5,7 +5,7 @@
  <!-- <p> Happy Coding Day - 404! </p> -->
  <p> Into the ML... </p>
 </div>
-[![GitHub Streak](https://streak-stats.demolab.com?user=khagendra01&theme=nord)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=khagendra01&theme=nord" alt="GitHub Streak" /></a>
 <!-- 
   <p> life init </p>
   <p> life add dayNumber </p>
