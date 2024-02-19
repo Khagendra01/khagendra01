@@ -5,6 +5,9 @@
  <!-- <p> Happy Coding Day - 404! </p> -->
  <p> Into the ML... </p>
 </div>
+(https://github-readme-stats.vercel.app/api?username=khagendra01&count_private=true&show_icons=true&theme=tokyonight)
+(https://github-readme-streak-stats.herokuapp.com/?user=khagendra01&theme=dark)
+
 <!-- 
   <p> life init </p>
   <p> life add dayNumber </p>
