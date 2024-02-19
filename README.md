@@ -5,8 +5,7 @@
  <!-- <p> Happy Coding Day - 404! </p> -->
  <p> Into the ML... </p>
 </div>
-(https://github-readme-stats.vercel.app/api?username=khagendra01&count_private=true&show_icons=true&theme=tokyonight)
-(https://github-readme-streak-stats.herokuapp.com/?user=khagendra01&theme=dark)
+[![GitHub Streak](https://streak-stats.demolab.com?user=khagendra01&theme=nord)](https://git.io/streak-stats)
 
 <!-- 
   <p> life init </p>
