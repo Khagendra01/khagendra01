@@ -2,13 +2,11 @@ import streamlit as st
 import json
 import pandas as pd
 from tensorflow import keras
-import os  
 
 st.title("Machine Learning Algorithm Tester")
 st.write("Authored by Kgen, Shadip")
 
-model_path = os.path.join(os.path.dirname(__file__), "numb_model.h5")
-model = keras.models.load_model(model_path)
+model = keras.models.load_model("numb_model.h5")
 
 uploaded_file = st.file_uploader("Upload your assignment file", type=['submit'])
 
