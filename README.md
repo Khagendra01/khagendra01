@@ -1,26 +1,105 @@
-<div align="center">
-  <h1>Sup, This is K-Gen! </h1><br>
- <!-- <p>"Brick walls are there for a reason. The brick walls are not there  to keep us out. The brick walls are there to show how badly we want something. Because the brick walls are there to stop the people who don't want something badly enough. " - Randy Pausch</p>
--->. 
-  
- <!-- <p> Happy Coding Day - 404! </p> [https://verbose-xylophone-7pgwwrjrrq6fv9r-8501.app.github.dev/](https://supreme-guide-g7g665v57v92wvxq-8501.app.github.dev/) -->
- <p>  </p>
- <!--
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=khagendra01&theme=calm-pink" alt="GitHub Streak" /></a>
--->  
-</div>
-<!-- 
-  <p> life init </p>
-  <p> life add dayNumber </p>
-  <p> life commit -m "Highlight of the Day" </p>
-  <p> life push origin main </p>
--->
- 
-<div align="center">
- <!-- <img src="https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&locale=en" alt="khagendra01" /> -->
-<!--  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khagendra01" alt="khagendra01" /> -->
-</div>
-
 <!--
-https://github.com/get-convex/ai-world-fair
+Tip: This README shows on your profile when it's in a repo named exactly like your username:
+khagendra01/khagendra01
 -->
+
+<h1 align="center">Hi, I'm Khagendra 👋</h1>
+<p align="center">
+  Software Engineer • Building reliable systems & delightful products
+</p>
+
+<p align="center">
+  <a href="https://github.com/khagendra01">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/khagendra01?style=for-the-badge">
+  </a>
+  <a href="https://github.com/khagendra01?tab=repositories">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/khagendra01?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge">
+  </a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=khagendra01&style=for-the-badge" />
+</p>
+
+---
+
+### 🚀 About me
+
+- 🧩 I enjoy solving problems across **backend, APIs, and systems design**
+- ⚙️ I care about **clean architecture, performance, and developer experience**
+- 🧪 I like shipping with confidence using **tests, CI/CD, and observability**
+- 🌱 Currently learning/going deeper on: **Distributed systems, Cloud, and scalability**
+- 🤝 Open to collaborating on: **Open-source tools, product features, and engineering projects**
+
+---
+
+### 🧰 Tech stack
+
+**Languages:**  
+`JavaScript` `TypeScript` `Python` `Java` `C/C++` `SQL`
+
+**Backend & APIs:**  
+`Node.js` `Express` `FastAPI` `Django` `REST` `GraphQL`
+
+**Frontend:**  
+`React` `Next.js` `HTML` `CSS` `Tailwind`
+
+**Databases & Data:**  
+`PostgreSQL` `MySQL` `MongoDB` `Redis`
+
+**DevOps & Cloud:**  
+`Docker` `GitHub Actions` `Linux` `Nginx` `AWS` *(or replace with your cloud)*
+
+**Testing & Quality:**  
+`Jest` `PyTest` `JUnit` `ESLint` `Prettier`
+
+> Replace anything above so it matches your real stack — authenticity wins.
+
+---
+
+### 📌 Featured work
+
+- ⭐ **Project Name** — one-liner value statement  
+  _Tech:_ X, Y, Z • _Highlights:_ performance / scale / key feature  
+  → Repo: https://github.com/khagendra01/REPO_NAME
+
+- ⭐ **Project Name** — one-liner value statement  
+  _Tech:_ X, Y, Z • _Highlights:_ tests / CI/CD / API design  
+  → Repo: https://github.com/khagendra01/REPO_NAME
+
+- ⭐ **Project Name** — one-liner value statement  
+  _Tech:_ X, Y, Z • _Highlights:_ UX / DX / automation  
+  → Repo: https://github.com/khagendra01/REPO_NAME
+
+---
+
+### 📈 GitHub stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&hide_title=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khagendra01&layout=compact" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=khagendra01" />
+</p>
+
+---
+
+### 📝 What I’m focused on
+
+- Building projects that are **maintainable, secure, and scalable**
+- Improving **system design** + writing clearer docs
+- Contributing to open source when I can
+
+---
+
+### 📫 Connect with me
+
+- GitHub: https://github.com/khagendra01  
+- LinkedIn: *add your link*  
+- Portfolio: *add your link*  
+- Email: *add your email (optional)*
+
+---
+
+<p align="center">
+  <i>“Make it work, make it right, make it fast.”</i>
+</p>
