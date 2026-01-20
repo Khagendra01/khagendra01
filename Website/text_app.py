@@ -27,8 +27,20 @@ if uploaded_file is not None:
 
     char_arr = [[] for _ in range(int(max(df['u'])) + 1)]
 
+    # Refactor: Replace deprecated fillna(method='ffill') with ffill()
+    df['u'] = df['u'].ffill()
+
+    char_arr = [[] for _ in range(int(max(df['u'])) + 1)]
+
     if '^' in df.columns:
-        for char, cellNumber, val in zip(df['^'], df['u'].fillna(method='ffill'), df['v']):
+        for i in range(len(df)):
+            char = df['^'].iloc[i]
+            cellNumber = df['u'].iloc[i]
+            val = df['v'].iloc[i]
+
+            if pd.isna(cellNumber):
+                continue
+                
             cellNumber = int(cellNumber)       
             if isinstance(char, list):
                 if len(char) >= 2:
@@ -37,7 +49,13 @@ if uploaded_file is not None:
                 if val != "":
                     char_arr[cellNumber].append(char)
     else:
-        for char, cellNumber in zip(df['v'], df['u'].fillna(method='ffill')):
+        for i in range(len(df)):
+            char = df['v'].iloc[i]
+            cellNumber = df['u'].iloc[i]
+            
+            if pd.isna(cellNumber):
+                continue
+                
             cellNumber = int(cellNumber)
             if isinstance(char, str):
                 char_arr[cellNumber].append(char)
@@ -49,8 +67,11 @@ if uploaded_file is not None:
     desired_length = 75711
 
     padding_length = desired_length - original_length
-
-    data_set += [0] * padding_length
+    
+    # Correction: Initialize data_set before appending
+    data_set = flattened_arr[:] 
+    if padding_length > 0:
+        data_set += [0] * padding_length
 
     X = []
     X.append(data_set)

@@ -28,22 +28,26 @@ if uploaded_file is not None:
     data_set = []
     cnt = 0
     # Processing the DataFrame skipping the first entry
-    for timestamp, total_chars, cursor_position in zip(df['t'][1:], df['_cs'].fillna(method='ffill')[1:], df['_c'].fillna(method='ffill')[1:]):
-       if not pd.isnull(total_chars) and not pd.isnull(cursor_position):
-            data_set.append( cnt )
-            data_set.append( int(total_chars) )
-            data_set.append( int(cursor_position) )
-            cnt += 1
+    data_set = []
+    cnt = 0
+    # Processing the DataFrame skipping the first entry
+    # Refactor: Replace deprecated fillna(method='ffill') with ffill()
+    df_filled = df.copy()
+    df_filled['_cs'] = df_filled['_cs'].ffill()
+    df_filled['_c'] = df_filled['_c'].ffill()
 
-    original_length = len(data_set)
-    desired_length = 75711
+    # Iterate starting from index 1
+    for i in range(1, len(df_filled)):
+        total_chars = df_filled['_cs'].iloc[i]
+        cursor_position = df_filled['_c'].iloc[i]
+        
+        if pd.notna(total_chars) and pd.notna(cursor_position):
+             data_set.append(cnt)
+             data_set.append(int(total_chars))
+             data_set.append(int(cursor_position))
+             cnt += 1
 
-    padding_length = desired_length - original_length
-
-    data_set += [0] * padding_length
-
-    X = []
-    X.append(data_set)
+    X = [data_set]
 
     y_pred_numb_binary_flat = (model.predict(X).flatten() > 0.5).astype(int)
     st.write(y_pred_numb_binary_flat)
