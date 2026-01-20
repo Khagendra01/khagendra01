@@ -58,32 +58,14 @@ I'm a passionate Software/AI Engineer specializing in building intelligent syste
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khagendra01&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-</div>
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khagendra01&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khagendra01&layout=compact&theme=tokyonight&hide_border=true)
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khagendra01&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=khagendra01&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>
-</div>
-
----
-
-## 🏆 Featured Projects
-
-<div align="center">
-
-[![Autonomous Web Agent](https://github-readme-stats.vercel.app/api/pin/?username=Khagendra01&repo=Autonomous-Web-Agent&theme=tokyonight&hide_border=true)](https://github.com/Khagendra01/Autonomous-Web-Agent)
-[![CS-491](https://github-readme-stats.vercel.app/api/pin/?username=Khagendra01&repo=CS-491&theme=tokyonight&hide_border=true)](https://github.com/Khagendra01/CS-491)
-
-[![vib3d](https://github-readme-stats.vercel.app/api/pin/?username=Khagendra01&repo=vib3d&theme=tokyonight&hide_border=true)](https://github.com/Khagendra01/vib3d)
-[![Vidsor](https://github-readme-stats.vercel.app/api/pin/?username=Khagendra01&repo=Vidsor&theme=tokyonight&hide_border=true)](https://github.com/Khagendra01/Vidsor)
+![GitHub Streak](https://streak-stats.demolab.com/?user=khagendra01&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -102,7 +84,5 @@ I'm always open to interesting conversations and collaboration opportunities!
 <div align="center">
   
 **"Code is like humor. When you have to explain it, it's bad." – Cory House**
-
-![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 </div>
