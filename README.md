@@ -84,6 +84,6 @@ I'm always open to interesting conversations and collaboration opportunities!
 
 <div align="center">
   
-**"Code is like humor. When you have to explain it, it's bad." – Cory House**
+**In the road of building the AGI, that actually outperforms Human.**
 
 </div>
